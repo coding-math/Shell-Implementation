@@ -1,6 +1,6 @@
 # Operating Systems Projects
 
-This repository contains the projects developed by Matheus Silva (RA: 140317) for the Operating Systems course at the Federal University of Sao Paulo (UNIFESP), taught by Professor Dr. Bruno Kimura.
+This repository contains four projects developed by Matheus Silva (RA: 140317) for the Operating Systems course at the Federal University of Sao Paulo (UNIFESP), taught by Professor Dr. Bruno Kimura. The projects serve as practical applications of the concepts learned in the classroom and cover various topics such as process management, memory management, file systems, and more. All the code in this repository is written in C language and is available for reference purposes. These projects can be used as a learning resource or as a starting point for further development in the field of operating systems.
 
 ## Project 1: Shell Implementation
 
@@ -41,4 +41,8 @@ By working on this project, students can learn how to design and implement a com
 
 Overall, the project aims to deepen students' understanding of the fundamental concepts of operating systems and enhance their practical skills in developing system-level software.
 
-## Project 2: ... 
+## Project 2: Process Scheduling in Minix
+
+### Project Description
+
+...
