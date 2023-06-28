@@ -1,16 +1,14 @@
-# Operating Systems Projects
+# Shell Implementation
 
-This repository contains four projects developed by Matheus Silva (RA: 140317) for the Operating Systems course at the Federal University of Sao Paulo (UNIFESP), taught by Professor Dr. Bruno Kimura. The projects serve as practical applications of the concepts learned in the classroom and cover various topics such as process management, memory management, file systems, and more. All the code in this repository is written in C language and is available for reference purposes. These projects can be used as a learning resource or as a starting point for further development in the field of operating systems.
+## Project Description
 
-## Project 1: Shell Implementation
+This repository contains a project that implements a Shell in the C programming language. The Shell handles various operators, including `|`, `||`, `&`, `&&`, `<`, `>`, and `>>`. It provides a command-line interface through which users can interact with the system by entering commands.
 
-### Project Description
+The Shell program works by accepting user commands as input, parsing them into tokens, and executing the corresponding processes or commands. It also supports input and output redirection, enabling users to redirect command input or output to specific files.
 
-This project is a Shell implementation in C language that handles the main operators such as `|`, `||`, `&`, `&&`, `<`, `>`, and `>>`. The Shell program provides a command-line interface that allows the user to interact with the system by entering commands.
+This project was developed by me, [Matheus Silva](http://www.github.com/matheuxito), as part of the Operating Systems course at the Federal University of São Paulo (UNIFESP), under the guidance of Professor Dr. Bruno Kimura. It serves as a practical application of the concepts and principles learned in the course.
 
-The Shell program works by accepting a command as input, parsing it into tokens, and then executing the corresponding process or command. The program also supports input and output redirection, allowing the user to redirect the input or output of a command to a file.
-
-### How to Run the Project
+## How to Run the Project
 
 To run the code, you need to compile the `shell_implementation.c` file and execute the resulting executable. Note that it is necessary to use a Unix-like operating system to run the code
 
@@ -23,7 +21,7 @@ After compilation, execute the code with:
 $ ./shell_implementation <param> <operator> ...
 ```
 
-### Examples:
+## Examples:
 
 ```
 $ ./shell_implementation ls ">" output.txt
@@ -34,15 +32,10 @@ This command will execute the `ls` command and redirect the output to a file cal
 $ ./shell_implementation command_that_does_not_exist "||" echo "The command failed."
 ```
 Since `command_that_does_not_exist` is not a valid command, it will fail with a non-zero exit status. The `echo` command to the right of the `||` operator will then be executed and will print the message "The command failed." to the terminal.
-### Project Objective
+
+## Project Objective
 The primary goal of this project is to provide a practical implementation of the concepts and principles covered in the Operating Systems course at the Federal University of Sao Paulo (UNIFESP). The project aims to provide students with hands-on experience in developing a basic Shell program in C language that can handle different types of commands and operators.
 
 By working on this project, students can learn how to design and implement a command-line interface that allows users to interact with the system. They can also learn how to parse and interpret user input, manage processes, and handle input and output redirection.
 
 Overall, the project aims to deepen students' understanding of the fundamental concepts of operating systems and enhance their practical skills in developing system-level software.
-
-## Project 2: Process Scheduling in Minix
-
-### Project Description
-
-...
