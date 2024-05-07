@@ -6,7 +6,7 @@ This repository contains a project that implements a Shell in the C programming 
 
 The Shell program works by accepting user commands as input, parsing them into tokens, and executing the corresponding processes or commands. It also supports input and output redirection, enabling users to redirect command input or output to specific files.
 
-This project was developed by me, [Matheus Silva](http://www.github.com/matheuxito), as part of the Operating Systems course at the Federal University of São Paulo (UNIFESP), under the guidance of Professor Dr. Bruno Kimura. It serves as a practical application of the concepts and principles learned in the course.
+This project was developed by me, [Matheus Silva](http://www.github.com/coding-math), as part of the Operating Systems course at the Federal University of São Paulo (UNIFESP), under the guidance of Professor Dr. Bruno Kimura. It serves as a practical application of the concepts and principles learned in the course.
 
 ## How to Run the Project
 
